@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+
+
+    >
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:layout_marginTop="12dp"
+            android:id="@+id/contenedor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:importantForAutofill="no"
+            android:text="@string/_0"
+            android:textAlignment="textEnd"
+            android:textSize="40sp"
+            tools:ignore="LabelFor,TextFields" />
+
+        <EditText
+            android:id="@+id/contenedor2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textAlignment="textEnd"
+            tools:ignore="Autofill,LabelFor,TextFields" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Salir"
+            android:text="@string/salir"
+            android:textSize="20sp" />
+
+        <Button
+
+            android:onClick="Potencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/x_y"
+            android:textSize="20sp" />
+
+        <Button
+            android:onClick="Raiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/raiz"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/FUNC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/func"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+
+        >
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/x_2"
+            android:textSize="20sp"
+            />
+        <Button
+            android:onClick="Borrartodo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/c"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:onClick="Borrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/del"
+            android:textSize="20sp"/>
+
+        <Button
+            android:onClick="Division"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/div"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+
+        >
+        <Button
+            android:onClick="num7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_7"
+            android:textSize="20sp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_8"
+            android:onClick="num8"
+            android:textSize="20sp"
+            />
+        <Button
+            android:onClick="num9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_9"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Producto"
+            android:text="@string/por"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+
+        >
+        <Button
+            android:onClick="num4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_4"
+            android:textSize="20sp"
+            />
+        <Button
+            android:onClick="num5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_5"
+            android:textSize="20sp"
+            />
+        <Button
+            android:onClick="num6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_6"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="Resta"
+            android:text="@string/guion"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+
+        >
+        <Button
+            android:onClick="num1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_1"
+            android:textSize="20sp"
+            />
+        <Button
+            android:onClick="num2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_2"
+            android:textSize="20sp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_3"
+            android:onClick="num3"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mas"
+            android:onClick="Suma"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal"
+
+        >
+        <Button
+            android:onClick="Signo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/menosmas"
+            android:textSize="20sp"
+            />
+        <Button
+            android:onClick="num0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_0"
+            android:textSize="20sp"
+            />
+        <Button
+            android:onClick="punto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/punt"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:onClick="Igual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ig"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
